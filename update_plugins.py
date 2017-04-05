@@ -55,6 +55,7 @@ vim-airline https://github.com/vim-airline/vim-airline
 vim-airline-themes https://github.com/vim-airline/vim-airline-themes
 undotree https://github.com/mbbill/undotree
 rainbow_parentheses.vim https://github.com/kien/rainbow_parentheses.vim
+nerdcommenter https://github.com/scrooloose/nerdcommenter.git
 """.strip()
 
 GITHUB_ZIP = '%s/archive/master.zip'

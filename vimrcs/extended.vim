@@ -27,10 +27,19 @@ set guioptions-=R
 set guioptions-=l
 set guioptions-=L
 
+" Set split option (Below and to the right)
+
+set splitright
+set splitbelow
+
 " Colorscheme
 set background=dark
-colorscheme peaksea
+colorscheme gruvbox
 
+let g:airline_powerline_fonts=1
+let g:gruvbox_italic=1
+
+highlight LineNr term=bold cterm=bold ctermfg=LightGrey ctermbg=none gui=none guifg=DarkGrey guibg=none
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Fast editing and reloading of vimrc configs
@@ -49,6 +58,8 @@ try
 catch
 endtry
 
+" UndoTree
+nnoremap <F5> :UndotreeToggle<cr>
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Command mode related

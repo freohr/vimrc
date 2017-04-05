@@ -45,6 +45,8 @@ highlight LineNr term=bold cterm=bold ctermfg=LightGrey ctermbg=none gui=none gu
 set number
 set relativenumber
 
+" Line guide
+set cursorline
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Fast editing and reloading of vimrc configs
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""

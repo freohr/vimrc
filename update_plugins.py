@@ -51,6 +51,10 @@ vim-flake8 https://github.com/nvie/vim-flake8
 vim-pug https://github.com/digitaltoad/vim-pug
 vim-yankstack https://github.com/maxbrunsfeld/vim-yankstack
 lightline.vim https://github.com/itchyny/lightline.vim
+vim-airline https://github.com/vim-airline/vim-airline
+vim-airline-themes https://github.com/vim-airline/vim-airline-themes
+undotree https://github.com/mbbill/undotree
+rainbow_parentheses.vim https://github.com/kien/rainbow_parentheses.vim
 """.strip()
 
 GITHUB_ZIP = '%s/archive/master.zip'

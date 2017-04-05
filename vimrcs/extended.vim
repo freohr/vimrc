@@ -28,11 +28,11 @@ set guioptions-=l
 set guioptions-=L
 
 " Set split option (Below and to the right)
-
 set splitright
 set splitbelow
 
 " Colorscheme
+set termguicolors
 set background=dark
 colorscheme gruvbox
 
@@ -40,6 +40,10 @@ let g:airline_powerline_fonts=1
 let g:gruvbox_italic=1
 
 highlight LineNr term=bold cterm=bold ctermfg=LightGrey ctermbg=none gui=none guifg=DarkGrey guibg=none
+
+" LineNumbers
+set number
+set relativenumber
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Fast editing and reloading of vimrc configs

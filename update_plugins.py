@@ -59,6 +59,8 @@ nerdcommenter https://github.com/scrooloose/nerdcommenter
 vim-unimpaired https://github.com/tpope/vim-unimpaired
 tagbar https://github.com/majutsushi/tagbar
 TagHighlight https://github.com/vim-scripts/TagHighlight
+YouCompleteMe https://github.com/Valloric/YouCompleteMe
+vim-abolish https://github.com/tpope/vim-abolish
 """.strip()
 
 GITHUB_ZIP = '%s/archive/master.zip'

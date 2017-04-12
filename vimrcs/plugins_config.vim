@@ -179,8 +179,8 @@ nnoremap <leader><F5> :UpdateTypesFile<cr>
 """""""""""""""""
 " Tags
 """""""""""""""""
-map <M-h> <C-]>
-map <M-l> <C-T>
+map <M-l> <C-]>
+map <M-h> <C-T>
 
 """""""""""""""""
 " TagBar

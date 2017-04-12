@@ -57,12 +57,13 @@ undotree https://github.com/mbbill/undotree
 rainbow_parentheses.vim https://github.com/kien/rainbow_parentheses.vim
 nerdcommenter https://github.com/scrooloose/nerdcommenter
 vim-unimpaired https://github.com/tpope/vim-unimpaired
+tagbar https://github.com/majutsushi/tagbar
+TagHighlight https://github.com/vim-scripts/TagHighlight
 """.strip()
 
 GITHUB_ZIP = '%s/archive/master.zip'
 
 SOURCE_DIR = path.join(path.dirname(__file__), 'sources_non_forked')
-
 
 def download_extract_replace(plugin_name, zip_path, temp_dir, source_dir):
     temp_zip_path = path.join(temp_dir, plugin_name)

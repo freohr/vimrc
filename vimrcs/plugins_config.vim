@@ -45,6 +45,7 @@ let g:ctrlp_working_path_mode = 0
 let g:ctrlp_map = '<c-f>'
 map <leader>j :CtrlP<cr>
 map <c-b> :CtrlPBuffer<cr>
+nnoremap <c-s-f> :CtrlPTag<cr>
 
 let g:ctrlp_max_height = 20
 let g:ctrlp_custom_ignore = 'node_modules\|^\.DS_Store\|^\.git\|^\.coffee'
@@ -168,3 +169,20 @@ nnoremap <silent> <leader>c :call SyntasticCheckCoffeescript()<cr>
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 let g:gitgutter_enabled=0
 nnoremap <silent> <leader>d :GitGutterToggle<cr>
+
+"""""""""""""""""""
+" Tag Highlighting
+"""""""""""""""""""
+
+nnoremap <leader><F5> :UpdateTypesFile<cr>
+
+"""""""""""""""""
+" Tags
+"""""""""""""""""
+map <M-h> <C-]>
+map <M-l> <C-T>
+
+"""""""""""""""""
+" TagBar
+"""""""""""""""""
+nnoremap <silent> <leader>b :TagbarToggle<cr>

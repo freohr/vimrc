@@ -84,6 +84,13 @@ map <leader>nb :NERDTreeFromBookmark<Space>
 map <leader>nf :NERDTreeFind<cr>
 
 
+"""""""""""""""""""""""""""""
+" Nerd Commenter
+"""""""""""""""""""""""""""""
+let g:NERDSpaceDelims = 1
+let g:NERDTrimTrailingWhitespace = 1
+
+
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => vim-multiple-cursors
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -167,7 +174,7 @@ nnoremap <silent> <leader>c :call SyntasticCheckCoffeescript()<cr>
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Git gutter (Git diff)
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-let g:gitgutter_enabled=0
+let g:gitgutter_enabled=1
 nnoremap <silent> <leader>d :GitGutterToggle<cr>
 
 """""""""""""""""""

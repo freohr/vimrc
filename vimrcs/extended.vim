@@ -39,7 +39,7 @@ colorscheme gruvbox
 let g:airline_powerline_fonts=1
 let g:gruvbox_italic=1
 
-highlight LineNr term=bold cterm=bold ctermfg=LightGrey ctermbg=none gui=none guifg=DarkGrey guibg=none
+" highlight LineNr term=bold cterm=bold ctermfg=LightGrey ctermbg=none gui=none guifg=DarkGrey guibg=none
 
 " LineNumbers
 set number
@@ -47,6 +47,7 @@ set relativenumber
 
 " Line guide
 set cursorline
+
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Fast editing and reloading of vimrc configs
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -63,9 +64,6 @@ try
     set undofile
 catch
 endtry
-
-" UndoTree
-nnoremap <F5> :UndotreeToggle<cr>
 
 """""""""""""""""""""""""""""
 " Whitespaces

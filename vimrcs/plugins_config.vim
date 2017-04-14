@@ -109,29 +109,29 @@ au FileType mako vmap Si S"i${ _(<esc>2f"a) }<esc>
 " => lightline
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 let g:lightline = {
-      \ 'colorscheme': 'wombat',
-      \ }
+			\ 'colorscheme': 'wombat',
+			\ }
 
 let g:lightline = {
-      \ 'colorscheme': 'wombat',
-      \ 'active': {
-      \   'left': [ ['mode', 'paste'],
-      \             ['fugitive', 'readonly', 'filename', 'modified'] ],
-      \   'right': [ [ 'lineinfo' ], ['percent'] ]
-      \ },
-      \ 'component': {
-      \   'readonly': '%{&filetype=="help"?"":&readonly?"🔒":""}',
-      \   'modified': '%{&filetype=="help"?"":&modified?"+":&modifiable?"":"-"}',
-      \   'fugitive': '%{exists("*fugitive#head")?fugitive#head():""}'
-      \ },
-      \ 'component_visible_condition': {
-      \   'readonly': '(&filetype!="help"&& &readonly)',
-      \   'modified': '(&filetype!="help"&&(&modified||!&modifiable))',
-      \   'fugitive': '(exists("*fugitive#head") && ""!=fugitive#head())'
-      \ },
-      \ 'separator': { 'left': ' ', 'right': ' ' },
-      \ 'subseparator': { 'left': ' ', 'right': ' ' }
-      \ }
+			\ 'colorscheme': 'wombat',
+			\ 'active': {
+			\   'left': [ ['mode', 'paste'],
+			\             ['fugitive', 'readonly', 'filename', 'modified'] ],
+			\   'right': [ [ 'lineinfo' ], ['percent'] ]
+			\ },
+			\ 'component': {
+			\   'readonly': '%{&filetype=="help"?"":&readonly?"🔒":""}',
+			\   'modified': '%{&filetype=="help"?"":&modified?"+":&modifiable?"":"-"}',
+			\   'fugitive': '%{exists("*fugitive#head")?fugitive#head():""}'
+			\ },
+			\ 'component_visible_condition': {
+			\   'readonly': '(&filetype!="help"&& &readonly)',
+			\   'modified': '(&filetype!="help"&&(&modified||!&modifiable))',
+			\   'fugitive': '(exists("*fugitive#head") && ""!=fugitive#head())'
+			\ },
+			\ 'separator': { 'left': ' ', 'right': ' ' },
+			\ 'subseparator': { 'left': ' ', 'right': ' ' }
+			\ }
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Vimroom
@@ -163,10 +163,10 @@ let g:syntastic_go_checkers = ['go', 'golint', 'errcheck']
 
 " Custom CoffeeScript SyntasticCheck
 func! SyntasticCheckCoffeescript()
-    let l:filename = substitute(expand("%:p"), '\(\w\+\)\.coffee', '.coffee.\1.js', '')
-    execute "tabedit " . l:filename
-    execute "SyntasticCheck"
-    execute "Errors"
+	let l:filename = substitute(expand("%:p"), '\(\w\+\)\.coffee', '.coffee.\1.js', '')
+	execute "tabedit " . l:filename
+	execute "SyntasticCheck"
+	execute "Errors"
 endfunc
 nnoremap <silent> <leader>c :call SyntasticCheckCoffeescript()<cr>
 
@@ -175,13 +175,13 @@ nnoremap <silent> <leader>c :call SyntasticCheckCoffeescript()<cr>
 " => Git gutter (Git diff)
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 let g:gitgutter_enabled=1
+let g:gitgutter_max_signs = 1000
 nnoremap <silent> <leader>d :GitGutterToggle<cr>
 
 """""""""""""""""""
 " Tag Highlighting
 """""""""""""""""""
-
-nnoremap <leader><F5> :UpdateTypesFile<cr>
+nnoremap <F5> :UpdateTypesFile<cr>
 
 """""""""""""""""
 " Tags
@@ -193,3 +193,8 @@ map <M-h> <C-T>
 " TagBar
 """""""""""""""""
 nnoremap <silent> <leader>b :TagbarToggle<cr>
+
+"""""""""""""""""
+" UndoTree
+"""""""""""""""""
+nnoremap <leader>u :UndotreeToggle<cr>

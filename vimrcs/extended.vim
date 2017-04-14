@@ -67,6 +67,13 @@ endtry
 " UndoTree
 nnoremap <F5> :UndotreeToggle<cr>
 
+"""""""""""""""""""""""""""""
+" Whitespaces
+"""""""""""""""""""""""""""""
+"Remove all trailing whitespace by pressing F3
+nnoremap <F3> :let _s=@/<Bar>:%s/\s\+$//e<Bar>:let @/=_s<Bar><CR>
+
+
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Command mode related
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""

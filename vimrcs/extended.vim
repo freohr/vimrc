@@ -116,6 +116,7 @@ inoremap $3 {}<esc>i
 inoremap $4 {<esc>o}<esc>O
 inoremap $q ''<esc>i
 inoremap $e ""<esc>i
+inoremap $x 0x<esc>a
 
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""

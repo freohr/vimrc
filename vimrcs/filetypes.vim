@@ -75,3 +75,9 @@ endif
 " => Twig section
 """"""""""""""""""""""""""""""
 autocmd BufRead *.twig set syntax=html filetype=html
+
+""""""""""""""""""""""""""""""
+" => Commit (Git/Hg) section
+""""""""""""""""""""""""""""""
+au Filetype hgcommit set tw=72
+au Filetype gitcommit set tw=72

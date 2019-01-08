@@ -1,3 +1,5 @@
+filetype indent plugin on
+
 """"""""""""""""""""""""""""""
 " => Python section
 """"""""""""""""""""""""""""""

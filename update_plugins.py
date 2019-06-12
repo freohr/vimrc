@@ -60,7 +60,8 @@ TagHighlight https://github.com/vim-scripts/TagHighlight
 YouCompleteMe https://github.com/Valloric/YouCompleteMe
 vim-abolish https://github.com/tpope/vim-abolish
 chromatica.nvim https://github.com/arakashic/chromatica.nvim
-vim-flatbuffers https://github.com/zchee/vim-flatbuffers.git
+vim-flatbuffers https://github.com/zchee/vim-flatbuffers
+vim-qml https://github.com/peterhoeg/vim-qml
 """.strip()
 # Unused local plugins
 # syntastic https://github.com/scrooloose/syntastic

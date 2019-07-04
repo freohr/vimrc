@@ -19,7 +19,7 @@ echo "Setting symlink for NeoVim"
 ln -s ~/.vimrc ~/.config/nvim/init.vim
 
 echo "Setting plugins up for the first time"
-python update_plugins.py
+python3 update_plugins.py
 
 echo ""
 echo "Installed the Ultimate Vim configuration successfully! Enjoy :-)"

@@ -17,7 +17,7 @@ The awesome version includes a lot of great plugins, configurations and color sc
 	git clone https://github.com/freohr/vimrc.git ~/.vim_runtime
 	sh ~/.vim_runtime/install_awesome_vimrc.sh
 
-I also recommend using [the Hack font](http://sourcefoundry.org/hack/) (it's a free and awesome font designed for source code). The Awesome vimrc is already setup to try to use it.
+I also recommend using [the Iosevka font](https://typeof.net/Iosevka/) (it's a free and awesome font designed for source code). The Awesome vimrc is already setup to try to use it.
 
 ## How to install the Basic version?
 The basic version is just one file and no plugins. Just copy [basic.vim](https://github.com/amix/vimrc/blob/master/vimrcs/basic.vim) and paste it into your vimrc.
@@ -27,6 +27,8 @@ The basic version is useful to install on remote servers where you don't need ma
 	git clone git://github.com/freohr/vimrc.git ~/.vim_runtime
 	sh ~/.vim_runtime/install_basic_vimrc.sh
 
+### Additional Notes
+This requires python 3, and the requests module before installation.
 
 ## How to install on Windows?
 

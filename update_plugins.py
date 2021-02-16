@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+
 try:
     import concurrent.futures as futures
 except ImportError:
@@ -27,7 +29,6 @@ tlib https://github.com/vim-scripts/tlib
 vim-addon-mw-utils https://github.com/MarcWeber/vim-addon-mw-utils
 vim-bundle-mako https://github.com/sophacles/vim-bundle-mako
 vim-coffee-script https://github.com/kchmck/vim-coffee-script
-vim-colors-solarized https://github.com/altercation/vim-colors-solarized
 vim-indent-object https://github.com/michaeljsmith/vim-indent-object
 vim-less https://github.com/groenewege/vim-less
 vim-markdown https://github.com/tpope/vim-markdown
@@ -57,11 +58,11 @@ nerdcommenter https://github.com/scrooloose/nerdcommenter
 vim-unimpaired https://github.com/tpope/vim-unimpaired
 tagbar https://github.com/majutsushi/tagbar
 TagHighlight https://github.com/vim-scripts/TagHighlight
-YouCompleteMe https://github.com/Valloric/YouCompleteMe
 vim-abolish https://github.com/tpope/vim-abolish
 chromatica.nvim https://github.com/arakashic/chromatica.nvim
 vim-flatbuffers https://github.com/zchee/vim-flatbuffers
 vim-qml https://github.com/peterhoeg/vim-qml
+dockerfile.vim https://github.com/ekalinin/Dockerfile.vim
 """.strip()
 # Unused local plugins
 # syntastic https://github.com/scrooloose/syntastic

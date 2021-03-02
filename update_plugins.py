@@ -63,6 +63,7 @@ chromatica.nvim https://github.com/arakashic/chromatica.nvim
 vim-flatbuffers https://github.com/zchee/vim-flatbuffers
 vim-qml https://github.com/peterhoeg/vim-qml
 dockerfile.vim https://github.com/ekalinin/Dockerfile.vim
+vim-fetch https://github.com/wsdjeg/vim-fetch
 """.strip()
 # Unused local plugins
 # syntastic https://github.com/scrooloose/syntastic
